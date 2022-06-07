@@ -38,7 +38,7 @@ define('CFULTZ_FASU_ANIMAL_LIST', __DIR__.'/animals.txt');
 // No direct call
 if( !defined( 'YOURLS_ABSPATH' ) ) die();
 
-// Generate a random AjdectiveAdjectiveNoun
+// Generate a random AjdectiveColorAnimal
 yourls_add_filter('random_keyword', 'cfultz_fasu_random_keyword');
 function cfultz_fasu_random_keyword() {
 
